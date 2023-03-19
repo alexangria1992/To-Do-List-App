@@ -3,7 +3,7 @@ import React from "react";
 const Form = ({ setInputText, todos, setTodos, inputText, setStatus }) => {
   // Here I can write JS code and function
   const inputTextHandler = (e) => {
-    console.log(e.target.value);
+    // console.log(e.target.value);
     setInputText(e.target.value);
   };
 
@@ -22,7 +22,7 @@ const Form = ({ setInputText, todos, setTodos, inputText, setStatus }) => {
   };
 
   const statusHandler = (e) => {
-    console.log(e.target.value);
+    // console.log(e.target.value);
     setStatus(e.target.value);
   };
   return (
